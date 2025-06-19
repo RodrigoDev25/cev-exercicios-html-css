@@ -1,96 +1,123 @@
 <!DOCTYPE html>
+<!-- Informa que o documento segue o padrão HTML5 -->
+
 <html lang="pt-br">
+<!-- Define o idioma principal do conteúdo da página como português do Brasil -->
 
 <head>
+    <!-- Contém metadados (dados sobre o site) e configurações importantes para o navegador -->
+
     <meta charset="UTF-8">
+    <!-- Define o conjunto de caracteres como UTF-8, permitindo acentos e símbolos -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Garante que o site se adapte bem a diferentes tamanhos de tela (responsivo) -->
+
     <title>Tags HTML - 1</title>
+    <!-- Define o título da página, mostrado na aba do navegador -->
+
     <link rel="icon" href="../assets/icon-html5.png">
+    <!-- Define o ícone que aparece na aba do navegador (favicon) -->
 </head>
 
 <body>
+    <!-- Parte visível da página, onde o conteúdo é exibido -->
 
-    <p>uso da tag &lth1&gt:</p>
+    <p>uso da tag &lt;h1&gt;:</p>
+    <!-- h1 representa o título principal do conteúdo da página -->
     <h1>Tags HTML - 1</h1>
 
     <hr>
+    <!-- hr insere uma linha horizontal usada para separar blocos de conteúdo -->
 
-    <p>uso da tag &lth2&gt:</p>
+    <p>uso da tag &lt;h2&gt;:</p>
+    <!-- h2 representa um subtítulo, geralmente abaixo de um h1 -->
     <h2>Subtitulo</h2>
 
     <hr>
 
-    <p>uso da tag &ltp&gt (parágrafos):</p>
+    <p>uso da tag &lt;p&gt; (parágrafos):</p>
+    <!-- p representa um parágrafo de texto -->
     <p>uso de lorem ipsum</p>
     <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta quaerat sed illum quidem deserunt
-        doloribus provident rem officiis dolore, velit mollitia debitis corporis, iusto asperiores voluptas rerum
-        facilis quod.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit...
     </p>
 
     <hr>
 
-    <p>uso da tag &lthr&gt (linha):</p>
+    <p>uso da tag &lt;hr&gt; (linha):</p>
+    <!-- hr separa visualmente seções do conteúdo -->
     <hr>
 
     <p>uso de caracteres:</p>
-    <p>&lt = "& lt"</p>
-    <p>&copy = "& copy"</p>
+    <!-- Mostra como escrever símbolos reservados do HTML -->
+    <p>&lt; = "&amp;lt;"</p>
+    <p>&copy; = "&amp;copy;"</p>
 
     <hr>
 
     <p>uso de comentários:</p>
-    <!--Comentário-->
-    < !-- comentarios -->
+    <!-- Comentários explicam o código, mas não aparecem na página -->
+    &lt!-- comentarios --&gt
 
     <hr>
 
-    <p>uso da tag &ltstrong&gt:</p>
+    <p>uso da tag &lt;strong&gt;:</p>
+    <!-- strong indica um texto com ênfase forte (semântica de importância) -->
     <p>texto <strong>STRONG</strong></p>
 
     <hr>
 
-    <p>uso da tag &ltem&gt:</p>
+    <p>uso da tag &lt;em&gt;:</p>
+    <!-- em indica ênfase leve no texto (semântica de destaque) -->
     <p>texto <em>EM</em></p>
 
     <hr>
 
-    <p>uso da tag &ltmark style="background-color: blue;"&gt:</p>
+    <p>uso da tag &lt;mark&gt;:</p>
+    <!-- mark destaca o texto, como se estivesse marcado -->
     <p>texto <mark style="background-color: blue;">MARK</mark></p>
 
     <hr>
 
-    <p>uso da tag &ltsmall&gt:</p>
+    <p>uso da tag &lt;small&gt;:</p>
+    <!-- small representa um texto com menor relevância ou observação secundária -->
     <p>texto <small>Small</small></p>
 
     <hr>
 
-    <p>uso da tag &ltu&gt:</p>
+    <p>uso da tag &lt;u&gt;:</p>
+    <!-- u representa texto sublinhado, mas sem valor semântico (uso visual) -->
     <p>texto <u>Uuuu</u></p>
 
     <hr>
 
-    <p>uso da tag &ltdel&gt:</p>
+    <p>uso da tag &lt;del&gt;:</p>
+    <!-- del indica que o texto foi removido (semântica de edição) -->
     <p>texto <del>DEL</del></p>
 
     <hr>
 
-    <p>uso da tag &ltins&gt (inserido):</p>
+    <p>uso da tag &lt;ins&gt; (inserido):</p>
+    <!-- ins indica texto inserido ou adicionado (semântica de edição) -->
     <p>texto <ins>INS</ins></p>
 
     <hr>
 
-    <p>uso da tag &ltsub&gt:</p>
+    <p>uso da tag &lt;sub&gt;:</p>
+    <!-- sub representa texto subscrito (como fórmulas químicas) -->
     <p>texto S<sub>SUB</sub>B</p>
 
     <hr>
 
-    <p>uso da tag &ltsup&gt:</p>
+    <p>uso da tag &lt;sup&gt;:</p>
+    <!-- sup representa texto sobrescrito (como expoentes matemáticos) -->
     <p>texto S<sup>SUP</sup>P</p>
 
     <hr>
 
-    <p>uso da tag &ltpre&gt (identação):</p>
+    <p>uso da tag &lt;pre&gt; (identação):</p>
+    <!-- pre preserva os espaços, quebras de linha e formatação do texto -->
     <p>texto PRE</p>
     <pre>
         PRE
@@ -100,7 +127,8 @@
 
     <hr>
 
-    <p>uso da tag &ltpre&gt + &ltcode&gt (identação + monoespaçamento):</p>
+    <p>uso da tag &lt;pre&gt; + &lt;code&gt;:</p>
+    <!-- code representa código-fonte, e com pre mantém o espaçamento e identação -->
     <p>texto</p>
     <pre><code>Texto
 texto
@@ -110,23 +138,27 @@ texto
 
     <hr>
 
-    <p>uso da tag &ltq&gt (citação):</p>
+    <p>uso da tag &lt;q&gt; (citação):</p>
+    <!-- q indica uma citação curta dentro de um parágrafo (com aspas) -->
     <p>texto <q>citação</q></p>
 
     <hr>
 
-    <p>uso da tag &ltblockquote cite="google.com"&gt (SEO):</p>
+    <p>uso da tag &lt;blockquote&gt;:</p>
+    <!-- blockquote representa uma citação longa, geralmente destacada -->
     <p>texto</p>
     <blockquote cite="google.com">Citação google</blockquote>
 
     <hr>
 
-    <p>uso da tag &ltabbr title="HyperText Markup Language"&gt (Mostrar significado da abreviação):</p>
+    <p>uso da tag &lt;abbr&gt;:</p>
+    <!-- abbr mostra o significado de uma sigla ao passar o mouse -->
     <p>texto <abbr title="HyperText Markup Language">HTML</abbr></p>
 
     <hr>
 
-    <p>uso da tag &ltbdo dir="rtl"&gt (Inverte texto):</p>
+    <p>uso da tag &lt;bdo dir="rtl"&gt;:</p>
+    <!-- bdo muda a direção do texto (esquerda para direita ou ao contrário) -->
     <p>texto <bdo dir="rtl">TEXTO</bdo></p>
 
 </body>
