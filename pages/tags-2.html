@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags HTML - 2</title>
+</head>
+
+<body>
+    <h1>Tags HTML - 2</h1>
+    <hr>
+    <h2>Lista de Motos</h2>
+    <ol type="A" start="2">
+        <li>Honda
+            <ul>
+                <li>Titan 160
+                <li>Twister 250
+                <li>Bros 160
+            </ul>
+        <li>YAMAHA
+            <ul>
+                <li>Fazer 150
+                <li>Fazer 250
+                <li>Lander 250
+            </ul>
+    </ol>
+
+    <dl>
+        <dt> - Item de uma lista de definição
+        <dd> Definição...
+    </dl>
+    <!--____________________________________________-->
+    <hr>
+    <h2>Links</h2>
+    <a href="https://google.com" target="_blank" rel="external">GOOGLE.com</a>
+    <!--____________________________________________-->
+    <hr>
+    <h2>Downloads de Arquivos do Site</h2>
+    <a href="../downloads/html.zip" download="html.zip" type="application/zip">HTML.zip para Download</a>
+    <!--____________________________________________-->
+    <hr>
+    <h2>Imagens Responsivas</h2>
+    <div style="text-align: center;">
+        <picture>
+            <source type="image/jpg" media="(max-width:818px)" srcset="../assets/Rapoza-Mobile.jpg">
+            <source type="image/jpg" media="(max-width:1250px)" srcset="../assets/Rapoza-Tablet.jpg">
+            <img src="../assets/Rapoza-Desktop.jpg" alt="Raposa Tecnologica">
+        </picture>
+    </div>
+    <!--____________________________________________-->
+    <hr>
+    <h2>Audios</h2>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="../assets/evil.mp3" type="audio/mp3">
+    </audio>
+
+    <!--____________________________________________-->
+    <hr>
+    <h2>Vídeos Locais</h2>
+    <video controls="autoplay" loop width="600px">
+        <source src="../assets/dev.mp4" type="video/mp4">
+    </video>
+
+    <!--____________________________________________-->
+    <hr>
+    <h2>Vídeos Externos</h2>
+    <iframe src="https://www.youtube.com/embed/0ttbzT7hiLY" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+</body>
+
+</html>
